@@ -58,19 +58,6 @@ def get_inwoners_gemeente(gemeente_naam: str = None, jaar: str = "2025") -> dict
     """
     return tf.get_inwoners_gemeente(gemeente_naam, jaar)
 
-@mcp.tool()
-def extract_text_pdf(pdf_path: str):
-    """
-    Extract text from a pdf using pymupdf. The pdf should not be a scanned image.
-    """
-    doc = pymupdf.open(pdf_path)
-    text = ""
-    for page in doc:
-        page_text = page.get_text()
-        if page_text:
-            text += page_text + "\n"
-    doc.close()
-    return text.strip()
 
 # Run the server
 if __name__ == "__main__":
