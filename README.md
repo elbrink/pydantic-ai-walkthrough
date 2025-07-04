@@ -13,3 +13,7 @@ LOGFIRE_TOKEN=YetAonthERSoMerandomSTRINGfromtheAPI
 MCP_SERVER_HOST=127.0.0.1
 MCP_SERVER_PORT=8050
 ```
+
+## Attribution
+
+Hat-tip to [Robert Elbrink](https://github.com/elbrink) for creating this repo!
