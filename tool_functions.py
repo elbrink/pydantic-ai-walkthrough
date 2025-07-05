@@ -155,7 +155,7 @@ def test_tools():
     print(f"✅ Discount test: {discount_result}")
     
     # Test CBS API (beperkt om API calls te minimaliseren)
-    inwoners = get_inwoners_gemeente('Eindhoven')
+    inwoners = get_inwoners_gemeente('Amsterdam')
     print(f"inwoners Amsterdam = {inwoners}")
     print("✅ CBS API ready (test met get_gemeente_inwoners('Amsterdam'))")
     

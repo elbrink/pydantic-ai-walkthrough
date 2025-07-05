@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "anthropic>=0.55.0",
     "dotenv>=0.9.9",
     "ipykernel>=6.29.5",
     "langchain>=0.3.26",
@@ -12,8 +13,10 @@ dependencies = [
     "langgraph>=0.5.0",
     "langsmith>=0.4.4",
     "logfire>=3.21.1",
-    "mcp>=1.10.1",
+    "mcp[cli]>=1.10.1",
     "nest-asyncio>=1.6.0",
+    "pydantic-ai-slim[mcp]>=0.3.5",
     "pydantic-ai[logfire]>=0.3.5",
     "requests>=2.32.4",
+    "rich>=14.0.0",
 ]
