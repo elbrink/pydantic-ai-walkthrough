@@ -9,7 +9,6 @@ import os
 import dotenv
 from mcp.server.fastmcp import FastMCP
 import tool_functions as tf
-import pymupdf
 
 dotenv.load_dotenv()
 
